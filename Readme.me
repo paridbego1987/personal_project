@@ -1,0 +1,30 @@
+1) Start Appium Server as normal
+2) cd to repo
+3) mvn clean test -Ddevice="iphone" -Denv="dev"
+
+Above are the available parameters so far for simulator or real device. real device details will need to be added to
+drivers.java
+
+
+
+Command Line Parameters:
+
+Mandatory
+1) device - can be: "ios_sim", "android_sim", "#name_of_real_iphone", "#name_of_real_android". If you specify
+'name_of_real_iphone' or 'name_of_real_android' then the real device as declared in properties must be connected to
+the server.
+2) env - can be: "dev", "uat", "qa"
+
+Optional
+1) name - needed to specify which device name you want from iOS Simulator, otherwise latest Apple device will load by
+default
+2) version - by default latest installed iOS version will load on Simulator unless another version is specified
+
+
+Appium Server details
+
+start default: appium &
+specific port: appium -p 'port_number' (above 4723)
+check running appium server Process Ids: ps -A | grep appium
+kill specific appium server: kill -9 'process_id'
+kill all node servers (dont use on Jenkins machine!): killall node
