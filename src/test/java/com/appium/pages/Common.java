@@ -14,7 +14,7 @@ import org.openqa.selenium.support.PageFactory;
 import java.util.concurrent.TimeUnit;
 
 /**
- * edited by Derin on 10/11/15.
+ * edited by Parid on 10/02/16.
  */
 public class Common extends RunTest{
 

@@ -12,7 +12,7 @@ import org.junit.runner.RunWith;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 /**
- * Created by  on 14/10/15.
+ * Created by Parid on 14/12/15.
  */
 
 @RunWith(Cucumber.class)

@@ -1,4 +1,4 @@
 /**
- * Created by Derin Ruban on 22/10/15.
+ * created by parid
  */
 package com.appium.drivers;
