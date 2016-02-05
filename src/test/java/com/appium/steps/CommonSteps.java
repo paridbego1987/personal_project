@@ -9,7 +9,7 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import java.util.Map;
 
 /**
- * Edited by Derin on 11/11/2015.
+ * Edited by on 11/11/2015.
  */
 public class CommonSteps extends RunTest{
 
