@@ -20,7 +20,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
         plugin={"pretty", "html:target/cucumber-html", "json:target/cucumber-json-report.json"},
         features={"src/test/resources/features"},
         monochrome = true,
-        tags={"@ios"},
+        tags={"@parid"},
         glue = {"com.appium.steps"}
 )
 
@@ -31,6 +31,7 @@ public class RunTest {
         public static String platform;
         public static WebDriverWait wait;
         public static Common common;
+        public static HouseSearch houseSearch;
 
 
         @BeforeClass
@@ -42,6 +43,8 @@ public class RunTest {
                 wait = new WebDriverWait(driver, 45);
 
                 common = new Common();
+                houseSearch = new HouseSearch();
+
 
 
         }

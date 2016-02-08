@@ -18,13 +18,22 @@ import java.util.concurrent.TimeUnit;
  */
 public class Common extends RunTest{
 
+
+    @AndroidFindBy(xpath = "//android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.RelativeLayout[1]/android.widget.LinearLayout[1]/android.widget.Button[1]")
+//  @iOSFindBy()
+    public MobileElement Accept_Agree_Btn;
+
+    @AndroidFindBy(xpath = "//android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[2]/android.widget.FrameLayout[1]/android.widget.RelativeLayout[1]/android.widget.ScrollView[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[1]\n")
+//  @iOSFindBy()
+    public MobileElement ForSale_Btn;
+
     @AndroidFindBy(name = "OK, got it")
     @iOSFindBy(name = "OK, got it")
     public MobileElement Rounding_Popup_Btn;
 
     @AndroidFindBy(name = "Continue")
     @iOSFindBy(id = "Continue")
-    public MobileElement Continue_Btn;
+    public MobileElement Cnt_Btn ;
 
     @AndroidFindBy(name = "menu_basket_btn")
     @iOSFindBy(id = "icon basket")

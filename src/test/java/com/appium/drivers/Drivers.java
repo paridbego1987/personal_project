@@ -16,7 +16,7 @@ import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.ios.IOSDriver;
 
 /**
- * Created by Derin on 14/10/15.
+ * Created by parid on 14/10/15.
  */
 
 

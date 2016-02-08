@@ -10,7 +10,7 @@ import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 
 /**
- * Created by Derin on 15/10/15.
+ * Created by parid on 15/10/15.
  */
 
 public class Env extends RunTest{

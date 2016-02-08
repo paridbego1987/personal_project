@@ -1,13 +1,13 @@
 package com.appium.steps.Support;
 
 /**
- * Created by admin on 02/11/15.
+ * Created by parid on 02/11/15.
  */
 public class ValidationData {
-    public static String exactly_50 = "DerinRubanWroteThisTestDerinRubanWroteThisTestHere";
+    public static String exactly_50 = "papdsefedbnednendmejdedeadjecjijoejncdnemeijenjamj";
     public static String less_than_50 = "MobileTester";
     public static String with_spaces = "Mobile Tester Here";
-    public static String allowed_characters = "Derin' - is 'testing'";
+    public static String allowed_characters = "parid' - is 'testing'";
 
     public static String missing_symbol = "tester.googl.de";
     public static String missing_domain = "tester@googlcom";
